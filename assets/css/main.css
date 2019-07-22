@@ -74,6 +74,7 @@ input, select, textarea {
 .iconify {
 	font-size: 30px;
 	margin-right: 5px;
+	color: #4acaa8;
 }
 
 /* Basic */
@@ -2439,6 +2440,7 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.25em;
 			}
+	
 
 /* Table */
 
