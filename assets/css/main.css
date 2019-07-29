@@ -122,7 +122,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #ffffff !important;
 		}
 
 	strong, b {
@@ -1794,12 +1794,32 @@ input, select, textarea {
 		font-size: 3.5em;
 	}
 
-		header.major h2 + p {
+		header.major p {
 			color: #777;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
 		}
+
+	.resume {
+	background-color: #4acaa8;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 24px;
+	width: fit-content;
+	height: fit-content;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	transition: none;
+}
+
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
 
 /* Form */
 
